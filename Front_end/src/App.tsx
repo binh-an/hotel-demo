@@ -103,7 +103,7 @@ const AppContent = () => {
 export default function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/hotel-demo">
         <AppContent />
       </BrowserRouter>
     </Provider>
